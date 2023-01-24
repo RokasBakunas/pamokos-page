@@ -1,0 +1,292 @@
+body {
+background-color: #C4C4C4;
+}
+
+.header {
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+}
+
+
+h1 {
+    font-size: medium;
+    text-align: center;
+    color:#FF9001;
+}
+
+h2 {
+    color: #FF4200;
+    font-size: medium;
+    text-shadow: 1px 1px #000;
+}
+
+.main {
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 3px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+
+}
+
+.main:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+
+.main img {
+    position:static;
+    
+}
+
+.whygood {
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+}
+
+.whygood:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+#apklausa {
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+#apklausa:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+#nauda{
+    color:#C4C4C4;
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+}
+
+#nauda:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+#augalas {
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+}
+
+#augalas:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+img, #augalas {
+    border-radius: 5px;
+}
+
+#no {
+    color:red;
+    border-radius: 5px;
+}
+#yes {
+    border-radius: 5px;
+    color:green;
+}
+
+.buy {
+    color:#C4C4C4;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.buy:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.nav {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #4B4B4B;
+    border-radius: 5px;
+    /*padding: 2px;*/
+    
+}
+
+ul a:hover {
+    background-color:#FF4200;
+  }
+
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li a {
+/*padding-bottom: 3px;*/
+font-family: sans-serif;
+color:#FF9001;
+}
+
+
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#4B4B4B;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .active{
+    background-color: orange;
+    color: white;
+  }
+  li a:hover {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: orange;
+    color: white;
+  }
+
+
+
+
+
+
+
+.container {
+    flex-direction: flex;
+    display: flex;
+    
+}
+.navigation {
+
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    width: 250px;
+}
+
+.content, .kontakto-telstas {
+    border-radius: 3px;
+    margin: 2px;
+    flex: 1;
+}
+
+.pirma {
+    text-align: left;
+    width: 30%;
+}
+
+.antra {
+   
+    width: 20%;
+}
+
+.trecia {
+    text-align: right;
+    width: 50%;
+}
+
+.copy {
+    text-align: center;
+}
+.copy img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.up a {
+    text-align: left;
+    color:#C4C4C4;
+}
+
+.social {
+    position:relative;
+    padding: 3px;
+    float: right;
+    top: -30px;
+}
+
+.social img {
+    width: 20px;
+    
+   
+   
+}
+
+.footer {
+    background-color:#4B4B4B;
+    border-radius: 5px;
+    padding: 7px; 
+    margin: 3px;
+}
+
+.footer:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+a {
+    color:#FF9001;
+}
+input {
+    border-radius: 5px;
+}
+textarea {
+    border-radius: 5px;
+}
+.trecia input texarea {
+    width: 50%;
+}
+
+.trecia input:focus {
+    background-color: rgb(176, 176, 176);
+    border-radius: 5px;
+  }
+
+  .trecia textarea:focus {
+    background-color: rgb(176, 176, 176);
+  }
+
+  .trecia button {
+    background-color: #FF4200;
+  }
+  
+  .checkbox {
+    accent-color: #FF4200;
+    ;
+  }
+
+  iframe {
+    border-radius: 5px;
+  }
